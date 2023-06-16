@@ -1,7 +1,6 @@
 "use client"
 import Advantages from "@/components/Advantages/Advantages";
 import BusinessFeature from "@/components/BusinessFeature/BusinessFeature";
-import Carousels from "@/components/Carousels/Carousels";
 import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
 import Hero from "@/components/Hero/Hero";
