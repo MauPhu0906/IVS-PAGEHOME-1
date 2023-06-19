@@ -71,6 +71,7 @@ const products = [
   },
 ]
 
+
 export default function BusinessFeature() {
   return (
     <Box className="parallax" p={20}>

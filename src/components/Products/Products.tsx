@@ -8,6 +8,7 @@ interface FeatureProps {
   text: string;
   icon: ReactElement;
   bg: string;
+
 }
 
 const Feature = ({ title, text, icon, bg }: FeatureProps) => {
@@ -30,9 +31,11 @@ const Feature = ({ title, text, icon, bg }: FeatureProps) => {
   );
 };
 
+
+
 export default function Products() {
   return (
-    <Box p={10} pl={200} pr={200} bg='black'>
+    <Box p={10} pl={200} pr={200} bg='black' className=''>
       <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
         <Feature
           icon={<Icon as={SlBookOpen} w={10} h={10} color={'Darkorange'} />}

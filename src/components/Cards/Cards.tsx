@@ -12,6 +12,8 @@ import {
 } from "@chakra-ui/react";
 
 import { ReactElement } from "react";
+import * as React from "react";
+import { motion } from "framer-motion";
 
 interface CardProps {
   heading: string;
@@ -20,6 +22,16 @@ interface CardProps {
   href: string;
   imgs: string;
 }
+export const BusinessFeature = () => (
+  <motion.div
+    initial={{ scale: 0 }}
+    animate={{ rotate: 180, scale: 1 }}
+    transition={{
+      stiffness: 260,
+      damping: 20
+    }}
+  />
+);
 
 export default function Card ({ heading, description, icon, href,imgs }: CardProps) {
   return (
